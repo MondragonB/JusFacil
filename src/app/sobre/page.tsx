@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from 'next/image'; // Optional: if you want to add an image of Diogo
 
 export const metadata: Metadata = {
   title: "Sobre o JusFácil - Criado por Diogo Santana Cardoso",

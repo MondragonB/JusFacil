@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Users, MessageSquarePlus, ThumbsUp, MessageCircle } from 'lucide-react';
+import { MessageSquarePlus, ThumbsUp, MessageCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Comunidade - JusFácil",

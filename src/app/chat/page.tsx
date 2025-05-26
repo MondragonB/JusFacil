@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { MessageCircle, Send } from 'lucide-react'; // Icons for chat
+import { Send } from 'lucide-react'; // Icons for chat
 
 export const metadata: Metadata = {
   title: "Chat de Orientação - JusFácil",

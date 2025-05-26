@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Calendar, PlusCircle } from 'lucide-react';
+import { PlusCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Agenda Acadêmica - JusFácil",

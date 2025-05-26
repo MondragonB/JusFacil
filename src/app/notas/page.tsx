@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { StickyNote, PlusCircle, Palette, Tag, AlertTriangle } from 'lucide-react'; // Icons for notes
+import { PlusCircle, Palette, Tag, AlertTriangle } from 'lucide-react'; // Icons for notes
 
 export const metadata: Metadata = {
   title: "Bloco de Notas - JusFácil",
@@ -34,7 +34,7 @@ export default function NotasPage() {
             </div>
             <div className="flex items-center justify-between mt-3 text-xs text-gray-500">
               <span>#ProcessoCivil</span>
-              <AlertTriangle className="w-4 h-4 text-red-500" title="Urgente" />
+              <AlertTriangle className="w-4 h-4 text-red-500" /> {/* Removed title="Urgente" */}
             </div>
           </div>
 
@@ -46,7 +46,7 @@ export default function NotasPage() {
             </div>
              <div className="flex items-center justify-between mt-3 text-xs text-gray-500">
               <span>#LGPD #TCC</span>
-              <Palette className="w-4 h-4 text-blue-500" title="Ideia" />
+              <Palette className="w-4 h-4 text-blue-500" /> {/* Removed title="Ideia" */}
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export default function NotasPage() {
             </div>
              <div className="flex items-center justify-between mt-3 text-xs text-gray-500">
               <span>#Constitucional</span>
-              <Tag className="w-4 h-4 text-gray-500" title="Dúvida" />
+              <Tag className="w-4 h-4 text-gray-500" /> {/* Removed title="Dúvida" */}
             </div>
           </div>
           {/* Add more notes or pagination */}

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Home, BookOpen, Lightbulb, Calendar, Users, List, Diamond, LogIn } from 'lucide-react';
+import { BookOpen, Lightbulb, Calendar, Users, List, Diamond, LogIn } from 'lucide-react';
 
 const Navbar = () => {
   return (

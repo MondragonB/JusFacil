@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { List, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Glossário Jurídico - JusFácil",
@@ -11,7 +11,7 @@ export default function GlossarioPage() {
     <div className="px-4">
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Glossário Jurídico Descomplicado</h1>
       <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-        Se perdeu no "juridiquês"? Aqui você encontra definições claras e exemplos práticos para os termos mais comuns (e os mais complicados) do Direito. Consulte rapidamente e tire suas dúvidas.
+        Se perdeu no &quot;juridiquês&quot;? Aqui você encontra definições claras e exemplos práticos para os termos mais comuns (e os mais complicados) do Direito. Consulte rapidamente e tire suas dúvidas.
       </p>
 
       {/* Search and Term List */}

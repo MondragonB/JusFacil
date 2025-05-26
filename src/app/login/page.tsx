@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from 'next/link';
-import { LogIn, Mail, KeyRound, CircleUserRound } from 'lucide-react'; // Added CircleUserRound for registration
+import { LogIn, Mail, KeyRound } from 'lucide-react'; // Added CircleUserRound for registration
 
 export const metadata: Metadata = {
   title: "Login - JusFácil",

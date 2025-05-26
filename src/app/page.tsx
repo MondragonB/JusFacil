@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BookOpen, Lightbulb, Calendar, Users, List, Diamond, LogIn } from 'lucide-react'; // Using lucide-react for icons
+import { BookOpen, Lightbulb, Calendar, Users, List, Diamond } from 'lucide-react'; // Using lucide-react for icons
 
 export default function HomePage() {
   return (
@@ -54,7 +54,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center">
             <List className="w-12 h-12 text-yellow-600 mb-3" /> {/* Changed icon for Glossário */}
             <h2 className="text-2xl font-semibold text-blue-800 mb-2">Glossário Descomplicado</h2>
-            <p className="text-gray-600 text-sm">Entenda o "juridiquês" com exemplos práticos.</p>
+            <p className="text-gray-600 text-sm">Entenda o &quot;juridiquês&quot; com exemplos práticos.</p>
           </div>
         </Link>
 

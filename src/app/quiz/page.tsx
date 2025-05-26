@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lightbulb, Trophy, Star, ChevronRight } from 'lucide-react';
+import { Trophy, Star, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Quiz Jurídico - JusFácil",
